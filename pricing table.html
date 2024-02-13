@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Tables</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        
+        .pricing-tables {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .pricing-table {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 20px;
+            text-align: center;
+            width: 300px;
+            transition: transform 0.3s ease;
+        }
+        
+        .pricing-table:hover {
+            transform: scale(1.05);
+        }
+        
+        .pricing-table h3 {
+            color: #333;
+        }
+        
+        .pricing-table h2 {
+            color: #007bff;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        
+        .pricing-table ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        
+        .pricing-table ul li {
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .pricing-table .button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="pricing-tables">
+        <div class="pricing-table">
+            <h3>Basic</h3>
+            <h2>$29.99</h2>
+            <ul>
+                <li>Access to course materials</li>
+                <li>Weekly assignments</li>
+                <li>Email support</li>
+            </ul>
+            <a href="#" class="button">Sign Up</a>
+        </div>
+        
+        <div class="pricing-table">
+            <h3>Standard</h3>
+            <h2>$49.99</h2>
+            <ul>
+                <li>Access to course materials</li>
+                <li>Weekly assignments</li>
+                <li>Email support</li>
+                <li>1-on-1 mentorship</li>
+            </ul>
+            <a href="#" class="button">Sign Up</a>
+        </div>
+        
+        <div class="pricing-table">
+            <h3>Premium</h3>
+            <h2>$99.99</h2>
+            <ul>
+                <li>Access to course materials</li>
+                <li>Weekly assignments</li>
+                <li>Email support</li>
+                <li>1-on-1 mentorship</li>
+                <li>Project feedback</li>
+            </ul>
+            <a href="#" class="button">Sign Up</a>
+        </div>
+    </div>
+</body>
+</html>
